@@ -1,0 +1,25 @@
+{
+  "name": "plugin",
+  "title": "jQuery plugin",
+  "description": " juqery plugin",
+  "keywords": [],
+  "version": "0.1.1",
+  "author": {
+    "name": "amazingSurge",
+    "email": "amazingSurge@yahoo.com",
+    "url": "amazingSurge.com"
+  },
+  "bugs": "https://github.com/amazingSurge/jquery-plugin/issues",
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/amazingSurge/jquery-plugin/blob/master/LICENSE-GPL"
+    }
+  ],
+  "bugs": "https://github.com/amazingSurge/jquery-plugin/issues",
+  "homepage": "https://github.com/amazingSurge/jquery-plugin",
+  "docs": "https://github.com/amazingSurge/jquery-plugin",
+  "dependencies": {
+    "jquery": ">= 1.8.3"
+  }
+}
