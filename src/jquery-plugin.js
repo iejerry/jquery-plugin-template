@@ -39,8 +39,6 @@
         };
  
         this.$element.addClass(this.namespace);
- 
-        this.value = 10;
 
         // flag
         this.disabled = false;
