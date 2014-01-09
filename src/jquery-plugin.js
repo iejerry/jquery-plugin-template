@@ -48,7 +48,7 @@
         
         this.trigger('init');
         this.init();
-    }
+    };
  
     Plugin.prototype = {
         constructor: Plugin,
@@ -106,13 +106,6 @@
             this.$element.addClass(this.classes.disabled);
  
             // here maybe have some events attached
-        },
-        val: function(val){
-            if(typeof val !== 'undefined'){
-                this.value = val;
-            } else {
-                return this.value;
-            }
         },
         destory: function() {
             // detached events first
