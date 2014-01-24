@@ -91,6 +91,8 @@
 
         /* Public functions */
         update: function(data) {
+            // reload comfig
+            // render again
             this._trigger('update');
         },
 
@@ -104,7 +106,8 @@
         },
         disable: function() {
             this.disabled = true;
-            // whitch element is up to your requirement
+            // which element is up to your requirement
+            // .disabled { pointer-events: none; } NO SUPPORT IE11 BELOW
             this.$element.addClass(this.classes.disabled);
 
             // here maybe have some events attached
