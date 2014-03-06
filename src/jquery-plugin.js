@@ -76,7 +76,7 @@
 
         _trigger: function(eventType) {
             // event
-            this.$element._trigger(pluginName + '::' + eventType, this);
+            this.$element.trigger(pluginName + '::' + eventType, this);
 
             // callback
             eventType = eventType.replace(/\b\w+\b/g, function(word) {
