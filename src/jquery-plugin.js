@@ -55,7 +55,7 @@
             this._bindEvent();
 
             // skin : excuting after all elements are generated
-            if (this.options.skin !== null) {
+            if (!this.options.skin) {
                 // add skin to wrapper
                 this.$element.addClass(this.classes.skin);
             }
@@ -142,12 +142,6 @@
                     }
                 });
             }
-            return this.each(function() {
-                var api = $.data(this, pluginName);
-                if (typeof api[method] === 'function') {
-                    api[method].apply(api, method_arguments);
-                }
-            });
         } else {
             return this.each(function() {
                 if (!$.data(this, pluginName)) {
