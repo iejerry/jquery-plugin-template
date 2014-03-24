@@ -42,7 +42,7 @@
 
         // flag
         this.disabled = false;
-        this.initialed = false;
+        this.initialized = false;
 
         this._trigger('init');
         this.init();
@@ -60,10 +60,10 @@
                 this.$element.addClass(this.classes.skin);
             }
 
-            // set initialed value
+            // set initialized value
             // ...
 
-            this.initialed = true;
+            this.initialized = true;
             // after init end trigger 'ready'
             this._trigger('ready');
         },
